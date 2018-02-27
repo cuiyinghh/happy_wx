@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/video/video",
+    "pages/img-loader/img-loader"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "橙花的礼物",
+    "navigationBarTextStyle":"black"
+  }
+}
