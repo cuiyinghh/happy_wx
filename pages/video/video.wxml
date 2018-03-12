@@ -1,9 +1,0 @@
-<view class="section tc">
-<view class="layer {{isShowLayer==true?'showLayer':''}}">
-
-</view>
-<video id="myVideo" src="{{src}}" controls="{{true}}"  autoplay show-fullscreen-btn="{{false}}" bindended="bindEnd"></video>
-  <view class="btn-area">
-    <button bindtap="bindButtonTap">获取视频</button>
-  </view>
-</view>

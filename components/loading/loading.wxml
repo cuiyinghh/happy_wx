@@ -1,0 +1,11 @@
+<view class="loading">
+  <view class='img-wrap'><image class='load-img imgr move1' src='http://img.zuoyebang.cc/zyb_54ad081f2f474da8a9185ff6df944efe.jpg@f_png'></image></view>
+  <view class='img-wrap'><image class='load-img imgl move2' src='http://img.zuoyebang.cc/zyb_54ad081f2f474da8a9185ff6df944efe.jpg@f_png'></image></view>
+  <view class='img-wrap'><image class='load-img imgr move3' src='http://img.zuoyebang.cc/zyb_54ad081f2f474da8a9185ff6df944efe.jpg@f_png'></image></view>
+  <view class='text'>
+    Loading 
+    <text class="move1">.</text>
+    <text class="move2 ml">.</text>
+    <text class="move3 ml">.</text>
+  </view>
+</view>
