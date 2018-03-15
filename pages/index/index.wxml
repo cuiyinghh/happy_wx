@@ -1,4 +1,12 @@
 <view class="index">
   <view class="phone-wrap">
+    <view class="title">与 xxx 聊天中</view>
+    <view class="chat-main">
+      
+
+    </view>
+    <view class="foot-butt">
+      <text class="foot-butt-txt">说点儿什么......</text>
+    </view>
   </view>
 </view>

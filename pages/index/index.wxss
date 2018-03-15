@@ -8,17 +8,60 @@ page,
 .index {
   padding-top: 140rpx;
   box-sizing: border-box;
+  font-size: 26rpx;
+  color: #888;
 }
 
 .phone-wrap {
+  position: relative;
   width: 700rpx;
   height: 1000rpx;
   margin: 0 auto;
 
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 0 0 30px 0 rgba(34,195,170,0.5);
+  box-shadow: 0 0 30rpx 0 rgba(34,195,170,0.5);
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   overflow: hidden;
+}
+
+.title {
+  position: relative;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  box-shadow: 0 0 60rpx 0 rgba(34,195,170,0.15);
+  background: #fff;
+  z-index: 2;  
+}
+
+.chat-main {
+  position: absolute;
+  top: 80rpx;
+  bottom: 100rpx;
+  width: 100%;
+  background: #E8F9F6;
+  z-index: 1;
+}
+
+.foot-butt {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 1px solid #f3f3f3;
+  box-shadow: 0 0 60rpx 0 rgba(34,195,170,0.2);
+  z-index: 2;
+}
+
+.foot-butt::after {
+  content: '';
+  display: block;
+  box-shadow: 0 0 80rpx 12rpx rgba(0,0,0,0.1);
+}
+
+.foot-butt-txt {
+  padding-left: 40rpx;
 }
