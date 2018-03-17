@@ -49,6 +49,12 @@
 					"name": "letter",
 					"pathName": "pages/letter/letter",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "对话",
+					"pathName": "pages/index/index",
+					"query": ""
 				}
 			]
 		}
