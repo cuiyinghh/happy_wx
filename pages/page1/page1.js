@@ -9,9 +9,9 @@ Page({
 
   },
 
-  go: function() {
+  next: function() {
     wx.redirectTo({
-      url: '/pages/letter/letter'
+      url: '/pages/page2/page2'
     })
   }
 })

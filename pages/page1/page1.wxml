@@ -2,5 +2,5 @@
   <view class='tip move1'>嘿、松树</view>
   <view class='tip move2'>这里有一个有趣的旅程等待着你</view>
   <view class='tip move3'>请先开启声音</view>
-  <view class='butt move4'>准备好了</view>
+  <view class='butt move4' bindtap='next'>准备好了</view>
 </view>

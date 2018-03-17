@@ -1,3 +1,12 @@
 <view class="page2">
+  <view class='tip move1'>很远的地方有个女郎</view>
+  <view class='tip move2'>名字叫做耶利亚</view>
+  <view class='tip move3'>有人在传说她的眼睛</view>
+  <view class='tip move4'>看了使人更年轻</view>
+  <view class='tip move5'>如果你得到她的拥抱</view>
+  <view class='tip move6'>你就永远不会老</view>
+  <view class='tip move7'>为了这个神奇的传说</view>
+  <view class='tip move8'>你会努力去寻找  吗？</view>
   
+  <view class='butt move9' bindtap='next'>去寻找</view>
 </view>

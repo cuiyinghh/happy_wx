@@ -1,3 +1,11 @@
 <view class="page3">
-   
+  <view class='tip move1'>恩。。。</view>
+  <view class='tip move2'>这里没有耶利亚</view>
+  <view class='tip move3'>不过我没有骗你哦</view>
+  <view class='tip move4'>这里有一个</view>
+  <view class='tip move5'>橙花大王女郎</view>
+  <view class='tip move6'>如果你和她好好聊天</view>
+  <view class='tip move7'>会有意想不到的事情发生</view>
+  
+  <view class='butt move9' bindtap='next'>继续寻找</view>
 </view>
