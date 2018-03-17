@@ -3,4 +3,21 @@
   <view class='tip move2'>这里有一个有趣的旅程等待着你</view>
   <view class='tip move3'>请先开启声音</view>
   <view class='butt move4' bindtap='next'>准备好了</view>
+
+  <image src='/pages/img/fl.png' class='flower f1'></image> 
+  <image src='/pages/img/fl.png' class='flower f2'></image> 
+  <image src='/pages/img/fl.png' class='flower f3'></image> 
+  <image src='/pages/img/fl.png' class='flower f4'></image> 
+  <image src='/pages/img/fl.png' class='flower f5'></image> 
+  <image src='/pages/img/fl.png' class='flower f6'></image> 
+  <image src='/pages/img/fl.png' class='flower f7'></image>
+
+  <image src='/pages/img/fl.png' class='flower f8'></image> 
+
+  <image src='/pages/img/fl.png' class='flower f9'></image> 
+  <image src='/pages/img/fl.png' class='flower f10'></image> 
+  <image src='/pages/img/fl.png' class='flower f11'></image> 
+  <image src='/pages/img/fl.png' class='flower f12'></image> 
+  <image src='/pages/img/fl.png' class='flower f13'></image> 
+  <image src='/pages/img/fl.png' class='flower f14'></image>
 </view>
