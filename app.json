@@ -1,11 +1,16 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/index/index",
+    "pages/letter/letter"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+ 
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "橙花的礼物",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "橙花的tang",
+    "navigationBarTextStyle": "black"
   }
 }

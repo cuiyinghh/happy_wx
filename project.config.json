@@ -21,6 +21,10 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
@@ -32,6 +36,18 @@
 					"id": -1,
 					"name": "图片预加载测试",
 					"pathName": "pages/img-loader/img-loader",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "page1",
+					"pathName": "pages/page1/page1",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "letter",
+					"pathName": "pages/letter/letter",
 					"query": ""
 				}
 			]
