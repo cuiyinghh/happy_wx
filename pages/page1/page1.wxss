@@ -2,6 +2,48 @@ page,
 .page1 {
   width: 100%;
   height: 100%;
-  background: #aee9e0;
-  text-align: center
+  background: pink;
+  font-size: 36rpx;
+  color: #fff;
+  text-align: center;
+  padding-top: 100rpx;
+  box-sizing: border-box;
+}
+
+.tip {
+  line-height: 240%;
+}
+
+.butt {
+  width: 400rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin:  140rpx auto 0;
+  border-radius: 50rpx; 
+  font-size: 38rpx;
+  border: 1px solid;
+}
+
+.move1 {
+  animation: myfirst 1s linear both; 
+}
+
+.move2 {
+  animation: myfirst 1s linear both;
+  animation-delay: 1s; 
+}
+
+.move3 {
+  animation: myfirst 1s linear both; 
+  animation-delay: 2s; 
+}
+
+.move4 {
+  animation: myfirst .4s linear both; 
+  animation-delay: 3s; 
+}
+
+@keyframes myfirst {
+  from {opacity: 0}
+  to 	{opacity: 1}
 }
