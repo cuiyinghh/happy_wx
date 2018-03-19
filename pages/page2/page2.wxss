@@ -77,7 +77,6 @@ page,
   position: fixed;
   width: 70rpx;
   height: 70rpx;
-  background: url(../img/fl.png);
 }
 
 .f1 {

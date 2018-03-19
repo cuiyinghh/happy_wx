@@ -1,13 +1,33 @@
 <view class="index">
-  <image class='zj-img' src='/pages/img/zj.png'></image>
+  <image class='zj-img' src='/pages/img/zj-test.png'></image>
   <view class="phone-wrap">
     <view class="title">与橙花大王聊天中</view>
-    <view class="chat-main">
-      
+    <scroll-view scroll-y class="chat-main" scroll-into-view="{{loading?'loading':'last'}}">
+      <view wx:for="{{chatList}}" wx:key="{{index}}" class="chat-item-wrap">
+        <view class="chat-item {{item.pos=='left'?'item-left':'item-right'}}" id="{{index==(chatList.length-1)?'last':''}}">{{item.txt}}</view>
+      </view>
 
-    </view>
-    <view class="foot-butt">
+      <view class="chat-item-wrap" wx:if="{{loading}}">
+        <view class="chat-item item-left" id="loading">
+          <view class="do move3"></view><view class="do move2"></view><view class="do move1"></view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="foot-butt" bindtap="footClick">
       <text class="foot-butt-txt">说点儿什么......</text>
+    </view>
+    
+    <view class="re-list-wrap move-appear" wx:if="{{isReLayer}}">
+      <view class="re-list">
+        <view class='re-line'>
+          <view class='close' bindtap="closeReList">X</view>
+          <view class='re-top-txt'>说点儿什么......</view>
+        </view>
+
+        <view wx:for="{{opList}}" wx:key="{{index}}" class='re-line'>
+          <view class='re-item' data-index="{{index}}" bindtap="reply">{{item.content}}</view>
+        </view>
+      </view>
     </view>
   </view>
 </view>
