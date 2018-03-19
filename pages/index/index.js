@@ -3,6 +3,7 @@ const dialogData = require('./dialog.js');
 
 Page({
   data: {
+    isNext: false,
     isReLayer: false,
     loading: false, // 橙花消息的loading
     key: '1',       // dialog对象中的key，当前橙花消息的key
@@ -15,7 +16,7 @@ Page({
   },
 
   addCHWord: function(key) {
-    //先把橙花的对话显示出来
+    //todo  100 和 101情况
     var arr = [];
     for (var i = 0; i < dialogData[key].words.length; i++) {
       var temp = {};
@@ -75,5 +76,9 @@ Page({
     this.setData({
       isReLayer: false
     });
+  },
+
+  next: function() {
+    //todo 去下一页
   }
 })

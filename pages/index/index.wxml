@@ -1,5 +1,5 @@
 <view class="index">
-  <image class='zj-img' src='/pages/img/zj-test.png'></image>
+  <image class='zj-img' src='/pages/img/zj.png'></image>
   <view class="phone-wrap">
     <view class="title">与橙花大王聊天中</view>
     <scroll-view scroll-y class="chat-main" scroll-into-view="{{loading?'loading':'last'}}">
@@ -13,8 +13,11 @@
         </view>
       </view>
     </scroll-view>
-    <view class="foot-butt" bindtap="footClick">
+    <view wx:if="{{!isNext}}" class="foot-butt" bindtap="footClick">
       <text class="foot-butt-txt">说点儿什么......</text>
+    </view>
+    <view wx:else class="foot-butt" bindtap="next">
+      <text class="foot-butt-txt next-butt">收下橙花的信</text>
     </view>
     
     <view class="re-list-wrap move-appear" wx:if="{{isReLayer}}">
