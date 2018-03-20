@@ -3,12 +3,12 @@ const dialogData = require('./dialog.js');
 
 Page({
   data: {
-    isNext: false,
-    isReLayer: false,
-    loading: false, // 橙花消息的loading
-    key: '1',       // dialog对象中的key，当前橙花消息的key
-    chatList: [],   // 视图中所有消息的list
-    opList: []      // user选项的list
+    isNext: 0,        // 下方按钮状态 0回复 1下一页 -1再见
+    isReLayer: false, // user回复的弹层
+    loading: false,   // 橙花消息的loading
+    key: '1',         // dialog对象中的key，当前橙花消息的key
+    chatList: [],     // 视图中所有消息的list
+    opList: []        // user选项的list
   },
  
   onLoad: function () {
@@ -16,7 +16,6 @@ Page({
   },
 
   addCHWord: function(key) {
-    //todo  100 和 101情况
     var arr = [];
     for (var i = 0; i < dialogData[key].words.length; i++) {
       var temp = {};
@@ -30,7 +29,8 @@ Page({
       key: key,
       loading: false,
       chatList: arr,
-      opList: dialogData[key].re
+      opList: dialogData[key].re,
+      isNext: (key == '101') ? 1 : (key == '100')? -1: 0
     });
   },
 
@@ -79,6 +79,8 @@ Page({
   },
 
   next: function() {
-    //todo 去下一页
+    wx.redirectTo({
+      url: '/pages/letter/letter'
+    })
   }
 })
