@@ -1,18 +1,16 @@
 page,
 .letter {
   width: 100%;
-  height: 100%;
   background: pink;
   font-size: 36rpx;
   color: #fff;
   text-align: left;
-  padding-top: 100rpx;
-  padding-left: 10rpx;
+  padding: 50rpx 0 50rpx 10rpx;
   box-sizing: border-box;
 }
 
 .tip {
-  line-height: 150%;
+  line-height: 160%;
 }
 
 
@@ -101,3 +99,14 @@ page,
   bottom: 0rpx;
   right: 40rpx;
 } 
+
+.line {
+  height: 40rpx;
+}
+
+.tu1 {
+  display: block;
+  margin: 26rpx 0;
+  width: 400rpx;
+  height: 300rpx;
+}

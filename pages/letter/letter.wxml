@@ -1,8 +1,12 @@
 <view class="letter">
-  <view class='tip'>大哥哥，生日快乐哦</view>
-  <view class='tip'>有没有惊喜</view>
-  <view class='tip'>有没有惊喜</view>
-  <view class='tip'>有没有惊喜</view>
+  <view class='tip'>见信悦</view>
+  <view class='line'></view>
+  <view class='tip'>大哥哥</view>
+  <view class='tip'>生日快乐哦</view>
+  <view class='tip'>有没有惊喜!!!</view>
+  <view class='tip'>有没有惊喜!!!</view>
+  <view class='tip'>有没有惊喜!!!</view>
+  <image src='/pages/img/1.png' class='tu1'></image>
   <view class='tip'>本来</view>
   <view class='tip'>我有很多话想说</view>
   <view class='tip'>后来又觉得</view>
@@ -11,6 +15,7 @@
   <view class='tip'>那天你说的关于理解的话题我听懂了</view>
   <view class='tip'>很认真的听懂了！</view>
   <view class='tip'>因为我想做最理解你的人</view>
+  <image src='/pages/img/3.png' class='tu1'></image>  
   <view class='tip'>最近莫名其妙的总是情绪不好</view>
   <view class='tip'>总是觉得迷茫</view>
   <view class='tip'>大哥哥好像很少有这种情绪</view>
@@ -28,6 +33,7 @@
   <view class='tip'>如果对我不好</view>
   <view class='tip'>它就会原地爆炸！</view>
   <view class='tip'>哈哈哈哈哈哈</view>
+  <image src='/pages/img/2.png' class='tu1'></image>    
   <view class='tip'>生日快乐松树哥哥！</view>
   <view class='tip'>这是陪你过得第二个生日</view>
   <view class='tip'>希望能陪你过余生所有的生日</view>
