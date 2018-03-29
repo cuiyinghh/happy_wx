@@ -2,5 +2,102 @@ page,
 .letter {
   width: 100%;
   height: 100%;
-  background: #aee9e0;
+  background: pink;
+  font-size: 36rpx;
+  color: #fff;
+  text-align: left;
+  padding-top: 100rpx;
+  padding-left: 10rpx;
+  box-sizing: border-box;
 }
+
+.tip {
+  line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+.flower {
+  position: fixed;
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.f1 {
+  top: 0; 
+  right: 0;
+}
+
+.f2{
+  top: 14rpx;
+  right: 50rpx;
+  transform: rotate(10deg);
+}
+
+.f3{
+  top: -4rpx;
+  right: 140rpx;
+  transform: rotate(30deg);
+}
+
+.f4{
+  top: -28rpx;
+  right: 220rpx;
+}
+
+.f5{
+  top: 80rpx;
+  right: 10rpx;
+} 
+
+.f6{
+  top: 290rpx;
+  right: -26rpx;
+} 
+
+.f7 {
+  top: 160rpx;
+  right: -20rpx;
+  transform: rotate(50deg);
+} 
+
+.f8 {
+  top: 10rpx;
+  right: -20rpx;
+} 
+
+.f9 {
+  bottom: -10rpx;
+  right: -20rpx;
+} 
+
+.f10 {
+  bottom: 10rpx;
+  right: 100rpx;
+} 
+
+.f11 {
+  bottom: -26rpx;
+  right: 340rpx;
+} 
+
+.f12 {
+  bottom: 100rpx;
+  right: -8rpx;
+} 
+
+.f13 {
+  bottom: -20rpx;
+  right: 198rpx;
+} 
+.f14 {
+  bottom: 0rpx;
+  right: 40rpx;
+} 

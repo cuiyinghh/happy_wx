@@ -1,3 +1,51 @@
 <view class="letter">
-  letter
+  <view class='tip'>大哥哥，生日快乐哦</view>
+  <view class='tip'>有没有惊喜</view>
+  <view class='tip'>有没有惊喜</view>
+  <view class='tip'>有没有惊喜</view>
+  <view class='tip'>本来</view>
+  <view class='tip'>我有很多话想说</view>
+  <view class='tip'>后来又觉得</view>
+  <view class='tip'>不是说很多话就可以表达清楚感情</view>
+  <view class='tip'>反正大哥哥</view>
+  <view class='tip'>那天你说的关于理解的话题我听懂了</view>
+  <view class='tip'>很认真的听懂了！</view>
+  <view class='tip'>因为我想做最理解你的人</view>
+  <view class='tip'>最近莫名其妙的总是情绪不好</view>
+  <view class='tip'>总是觉得迷茫</view>
+  <view class='tip'>大哥哥好像很少有这种情绪</view>
+  <view class='tip'>真羡慕你</view>
+  <view class='tip'>你看起来总是很阳光</view>
+  <view class='tip'>很少的心事儿</view>
+  <view class='tip'>很容易开心</view>
+  <view class='tip'>可是我不知道</view>
+  <view class='tip'>你是真的很少的心事儿</view>
+  <view class='tip'>还是藏起来自己消化</view>
+  <view class='tip'>这个小程序</view>
+  <view class='tip'>是年前和公司的项目同步启动的个人项目</view>
+  <view class='tip'>你如果对我好</view>
+  <view class='tip'>它就会一直存在</view>
+  <view class='tip'>如果对我不好</view>
+  <view class='tip'>它就会原地爆炸！</view>
+  <view class='tip'>哈哈哈哈哈哈</view>
+  <view class='tip'>生日快乐松树哥哥！</view>
+  <view class='tip'>这是陪你过得第二个生日</view>
+  <view class='tip'>希望能陪你过余生所有的生日</view>
+  
+  
+
+  <image src='/pages/img/fl.png' class='flower f1'></image> 
+  <image src='/pages/img/fl.png' class='flower f2'></image> 
+  <image src='/pages/img/fl.png' class='flower f3'></image> 
+  <image src='/pages/img/fl.png' class='flower f4'></image> 
+  <image src='/pages/img/fl.png' class='flower f5'></image> 
+  <image src='/pages/img/fl.png' class='flower f6'></image> 
+  <image src='/pages/img/fl.png' class='flower f7'></image> 
+  <image src='/pages/img/fl.png' class='flower f8'></image> 
+  <image src='/pages/img/fl.png' class='flower f9'></image> 
+  <image src='/pages/img/fl.png' class='flower f10'></image> 
+  <image src='/pages/img/fl.png' class='flower f11'></image> 
+  <image src='/pages/img/fl.png' class='flower f12'></image> 
+  <image src='/pages/img/fl.png' class='flower f13'></image> 
+  <image src='/pages/img/fl.png' class='flower f14'></image>
 </view>
