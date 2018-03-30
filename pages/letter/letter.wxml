@@ -1,8 +1,7 @@
 <view class="letter">
   <view class='tip'>见信悦</view>
   <view class='line'></view>
-  <view class='tip'>大哥哥</view>
-  <view class='tip'>生日快乐哦</view>
+  <view class='tip'>生日快乐！</view>
   <view class='tip'>有没有惊喜!!!</view>
   <view class='tip'>有没有惊喜!!!</view>
   <view class='tip'>有没有惊喜!!!</view>
@@ -34,11 +33,58 @@
   <view class='tip'>它就会原地爆炸！</view>
   <view class='tip'>哈哈哈哈哈哈</view>
   <image src='/pages/img/2.png' class='tu1'></image>    
-  <view class='tip'>生日快乐松树哥哥！</view>
   <view class='tip'>这是陪你过得第二个生日</view>
-  <view class='tip'>希望能陪你过余生所有的生日</view>
-  
-  
+  <view class='tip'>生日快乐松树哥哥！</view>
+  <view class='tip'>也希望你在未来的所有日子里</view>
+  <view class='tip'>快乐总是多过痛苦</view>
+  <view class='line'></view>
+  <view class='line'></view>
+  <view class='line'></view>
+  <view class='tip' style='font-weight:bold'>2018-3-30</view>
+  <view class='tip'>上边这封信是前段时间写的</view>
+  <view class='tip'>历时两周</view>
+  <view class='tip'>今天是你生日前一天的周五</view>
+  <view class='tip'>心境稍有不同</view>
+  <view class='tip'>不过我还是想祝福你的生日</view>
+  <view class='tip'>所以还是把这个发给你看</view>
+  <view class='tip'>你可能无法想象</view>
+  <view class='tip'>前一天晚上发着烧还在工作之外</view>
+  <view class='tip'>偷偷写下这些代码</view>
+  <view class='tip'>几个小时之后就被你说我不关心你</view>
+  <view class='tip'>是一个什么心情</view>
+  <view class='tip'>确实</view>
+  <view class='tip'>每个人都不同</view>
+  <view class='tip'>每个人关心别人的方式也不一样</view>
+  <view class='tip'>但你不能说</view>
+  <view class='tip'>我的方式就不值得被珍惜</view>
+  <view class='tip'>就是不关心</view>
+  <view class='tip'>你这样说我的心会很凉</view>
+  <view class='tip'>我有的时候会任性</view>
+  <view class='tip'>自己也发觉了</view>
+  <view class='tip'>这样的时候我就会想</view>
+  <view class='tip'>如果你包容任性的我</view>
+  <view class='tip'>就能证明你好喜欢我的</view>
+  <view class='tip'>我知道这逻辑很怪</view>
+  <view class='tip'>很无理取闹</view>
+  <view class='tip'>可是没有想到</view>
+  <view class='tip'>你直接把它解读为我不关心你</view>
+  <view class='tip'>不过我也无法怪你</view>
+  <view class='tip'>是我先有这个神逻辑的</view>
+  <view class='tip'>总之</view>
+  <view class='tip'>跟你在一起是开心大于难过的</view>
+  <view class='tip'>如果你觉得我什么时候太任性了</view>
+  <view class='tip'>可以直接告诉我的</view>
+  <view class='tip'>其实</view>
+  <view class='tip'>我感觉你的心很硬的</view>
+  <view class='tip'>我的也硬</view>
+  <view class='tip'>但是稍稍比你柔软一点</view>
+  <view class='tip'>说完了</view>
+  <view class='tip'>没有一个像样的结尾</view>
+  <view class='tip'>将就看吧</view>
+  <view class='tip'>核心内容还是不变</view>  
+  <view class='tip'>还是祝你快乐</view>
+
+
 
   <image src='/pages/img/fl.png' class='flower f1'></image> 
   <image src='/pages/img/fl.png' class='flower f2'></image> 
